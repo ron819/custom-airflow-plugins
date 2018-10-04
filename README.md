@@ -16,5 +16,8 @@ This provides an operator that downloads a file from an SFTP server and then upl
 ### Slack Webhook Plugin
 This provides an operator that sends a message to slack using slack incoming webhooks. This can be used as an alternative to the slack operator bundled with airflow
 
+### Set BigQuery table description plugin
+This provides an operator that can be used to set the description on a table in BigQuery
+
 ## Licence
 All code is licenced under the Apache licence. Please see [licence](LICENCE.md)
