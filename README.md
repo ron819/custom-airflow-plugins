@@ -17,4 +17,4 @@ This provides an operator that downloads a file from an SFTP server and then upl
 This provides an operator that sends a message to slack using slack incoming webhooks. This can be used as an alternative to the slack operator bundled with airflow
 
 ## Licence
-All code is licenced under the MIT licence. Please see [licence](LICENCE.md)
+All code is licenced under the Apache licence. Please see [licence](LICENCE.md)
