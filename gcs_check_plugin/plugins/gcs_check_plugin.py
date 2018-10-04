@@ -6,9 +6,9 @@
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
-# 
+#
 #     http://www.apache.org/licenses/LICENSE-2.0
-# 
+#
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -75,7 +75,8 @@ class CheckGCSObjectExistsOperator(BaseOperator):
 
 class BranchGCSObjectExistsOperator(BaseOperator, SkipMixin):
     """
-    Checks a file exists on Google Cloud Storage and branches on which task to run next depending on whether object exist.
+    Checks a file exists on Google Cloud Storage and branches on which task to run next
+    depending on whether object exist.
     This is similar to the branch python operator.
 
     :param bucket: The Google cloud storage bucket where the object is.
