@@ -31,11 +31,6 @@ class CustomBigQueryHook(BigQueryHook):
     It has an extra function used to set the table description
     """
 
-    def __init__(self,
-                 bigquery_conn_id='bigquery_default',
-                 delegate_to=None):
-        super(CustomBigQueryHook, self).__init__(bigquery_conn_id, delegate_to)
-
     def set_table_description(self, dataset_id, table_id, description, project_id=None):
         """
         Sets the description for the given table
