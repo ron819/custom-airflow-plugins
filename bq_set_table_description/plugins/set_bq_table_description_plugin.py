@@ -82,6 +82,7 @@ class SetBQTableDescriptionOperator(BaseOperator):
         For this to work, the service account making the request must have domain-wide delegation enabled.
     :type delegate_to: string
     """
+    template_fields = ('project_id', 'dataset_id', 'table_id', 'description')
     @apply_defaults
     def __init__(self,
                  project_id=None,
