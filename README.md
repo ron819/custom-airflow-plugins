@@ -19,5 +19,8 @@ This provides an operator that sends a message to slack using slack incoming web
 ### Set BigQuery table description plugin
 This provides an operator that can be used to set the description on a table in BigQuery
 
+### BigQuery branch plugin
+This provides an operator that can be used to branch on the result of a BigQuery query
+
 ## Licence
 All code is licenced under the Apache licence. Please see [licence](LICENCE.md)
